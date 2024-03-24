@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page...</title>
+    <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/000/641/301/original/vector-web-login-form-template.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-parent">
+        <div class="container-child">
+
+            <h1 class="form-head">Login</h1>
+
+            <label class="label" for="name">Name</label>
+            <input class="input-box" type="text" required>
+
+            <label class="label" for="email">Email</label>
+            <input class="input-box" type="email" required>
+
+            <label class="label" for="password">Password</label>
+            <input class="input-box" type="password" id="passKey" required>
+
+        <section class="checkbox-section">
+            <input type="checkbox" id="checkbox" onclick="passClick()">
+            <label for="ckeck-box-passkey" id="checkboxContent">Show Password</label>
+        </section>
+
+        <button id="btn">Submit</button>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
